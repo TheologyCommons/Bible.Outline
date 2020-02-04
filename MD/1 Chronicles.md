@@ -1,11 +1,11 @@
-1 CHRONICLES 1-9 
+1 Chronicles 1-9 
 ================
 
 Genealogies from Adam to Jacob are given, along with a list of the
 descendants of the 12 patriarchs and other significant figures. The
 returning exiles are also listed, including the priests and Levites.
 
-FROM ADAM TO ISAAC\'S SONS (1:1-54) 
+From Adam To Isaac\'s Sons (1:1-54) 
 -----------------------------------
 
 ### Adam to Noah\'s sons (1:1-4) 
@@ -22,7 +22,7 @@ FROM ADAM TO ISAAC\'S SONS (1:1-54)
 
 ### Others from Edom (1:38-54) 
 
-THE TWELVE PATRIARCHS AND THEIR DESCENDANTS (2:1-9:44) 
+The Twelve Patriarchs and Their Descendants (2:1-9:44) 
 ------------------------------------------------------
 
 ### Descendants of Judah (2:3-4:23) 
@@ -65,7 +65,7 @@ THE TWELVE PATRIARCHS AND THEIR DESCENDANTS (2:1-9:44)
 
 #### The family of King Saul (8:33-40; 9:35-44) 
 
-THE RETURNING EXILES (9:1-34) 
+The Returning Exiles (9:1-34) 
 -----------------------------
 
 ### Returnees from assorted tribes (9:1-9) 
@@ -74,7 +74,7 @@ THE RETURNING EXILES (9:1-34)
 
 ### Other Levites and their duties (9:14-34) 
 
-1 CHRONICLES 10-13 
+1 Chronicles 10-13 
 ==================
 
 Saul is killed, and David becomes king over all Israel. David captures
@@ -82,7 +82,7 @@ Jerusalem and makes it his capital. The deeds of David\'s mighty men are
 recorded, and Saul\'s warriors transfer their loyalty to David. David
 attempts to bring the Ark of God to Jerusalem.
 
-THE TRAGEDY OF SAUL (10:1-14):
+The Tragedy of Saul (10:1-14):
 ------------------------------
 
 Israel\'s first king is killed in a battle with the Philistines.
@@ -123,7 +123,7 @@ and give them a proper burial.
 Saul was killed because he disobeyed the Lord and even consulted a
 medium.
 
- THE TRIUMPHS OF DAVID (11:1-13:14) 
+ The Triumphs of David (11:1-13:14) 
 ----------------------------------
 
 ### His coronation (11:1-3; 12:38-40): 
@@ -176,7 +176,7 @@ When Uzzah reaches out to steady the Ark, the Lord strikes him dead.
 This incident makes David afraid to bring the Ark into Jerusalem, so he
 leaves it with Obed-edom for three months.
 
-1 CHRONICLES 14-15 
+1 Chronicles 14-15 
 ==================
 
 David\'s power increases, and he defeats the Philistines. He brings the
@@ -184,7 +184,7 @@ Ark to Jerusalem in proper fashion. There is great joy and rejoicing as
 the Ark enters Jerusalem, but David\'s wife Michal despises David for
 dancing joyfully before the Ark.
 
-THE ANOINTED OF GOD (14:1-17) 
+The Anointed of god (14:1-17) 
 -----------------------------
 
 ### David\'s fame (14:1-2, 17): 
@@ -224,7 +224,7 @@ the trees.
 This time David\'s victory is even greater and more extensive than the
 first.
 
-THE ARK OF GOD (15:1-29): 
+The ark of God (15:1-29): 
 -------------------------
 
 David prepares to bring the Ark of God from the house of Obed-edom to
@@ -253,7 +253,7 @@ sacrificing!
 David\'s wife Michal is filled with contempt when David dances and leaps
 for joy before the Ark.
 
-1 CHRONICLES 16-17 
+1 Chronicles 16-17 
 ==================
 
 David appoints several Levites to lead the people in worship and gives
@@ -262,7 +262,7 @@ worship. The Lord makes a covenant with David, promising to establish
 David\'s dynasty forever. David offers a prayer of thanks for the
 covenant.
 
-THE PREFACE (16:1-6, 37-43) 
+The Preface (16:1-6, 37-43) 
 ---------------------------
 
 ### David blesses the people (16:1-3): 
@@ -274,7 +274,7 @@ and gives them a gift of food.
 
 David assigns the Levites various responsibilities for leading worship.
 
-THE PSALM OF PRAISE (16:7-36): 
+The Psalm of Praise (16:7-36): 
 ------------------------------
 
 David gives Asaph and the other Levites a song of thanksgiving.
@@ -288,7 +288,7 @@ and his descendants the land of Canaan forever.
 
 David calls for the whole earth to recognize the glory of the Lord.
 
-THE PROPHECY OF NATHAN (17:1-15): 
+The Prophecy of Nathan (17:1-15): 
 ---------------------------------
 
 When David settles into his new palace, he speaks with the prophet
@@ -322,14 +322,14 @@ The Lord promises to establish the throne of David\'s son Solomon. He
 also promises that David\'s dynasty will never end. This promise is
 fulfilled by Jesus Christ (see Luke 1:30-33).
 
-THE PRAYER OF DAVID (17:16-27): 
+The Prayer of David (17:16-27): 
 -------------------------------
 
 David offers a prayer of thanksgiving for the Lord\'s gracious covenant
 with him. He humbly acknowledges his total unworthiness and worships the
 Lord for all his blessings.
 
-1 CHRONICLES 18-21 
+1 Chronicles 18-21 
 ==================
 
 David\'s many military victories are recorded, including his defeat of
@@ -338,7 +338,7 @@ displeasing God; David chooses three days of plague throughout the Iand
 as his punishment. When the Lord ends the plague, David builds an altar
 on the threshing floor of Araunah.
 
-THE CAMPAIGNS OF DAVID (18:1-20:8) 
+The Campaigns of David (18:1-20:8) 
 ----------------------------------
 
 ### Against the Moabites (18:2): 
@@ -398,7 +398,7 @@ David captures Gath, one of the key Philistine cities.
 During these confrontations, David and his warriors kill several of the
 notorious Philistine giants.
 
-THE COURT OF DAVID (18:14-17): 
+The Court of David (18:14-17): 
 ------------------------------
 
 David\'s officials are listed.
@@ -438,7 +438,7 @@ the death angel from destroying Jerusalem.
 At the Lord\'s command, David buys the threshing floor of Araunah and
 builds an altar there. After this, the plague is stopped.
 
-1 CHRONICLES 22-27 
+1 Chronicles 22-27 
 ==================
 
 David gathers materials to build the Temple and charges Solomon to
@@ -446,7 +446,7 @@ complete the task since David is not the one chosen to build it. David
 effectively organizes the religious, military, and political life of the
 nation, assigning various duties to individuals and families.
 
-DAVID\'S PREPARATIONS (22:1-19): 
+David\'s Preparations (22:1-19): 
 --------------------------------
 
 David makes preparations for the Temple to be built.
@@ -477,7 +477,7 @@ for him.
 
 David orders them to seek the Lord with all their heart!
 
-DAVID\'S PERSONNEL (23:1-27:34): 
+David\'s Personnel (23:1-27:34): 
 --------------------------------
 
 David assigns the many tasks of the kingdom to various individuals and
@@ -536,7 +536,7 @@ one month per year.
 Other leaders are listed, including the leaders of each tribe, the
 overseers of David\'s property, and David\'s advisers.
 
-1 CHRONICLES 28-29 
+1 Chronicles 28-29 
 ==================
 
 David delivers his farewell address, instructing both the people and
@@ -544,7 +544,7 @@ Solomon. David gives Solomon the plans for the Temple, including a list
 of all the materials he has collected for it. David praises the Lord
 before all the people. The people crown Solomon as king, and David dies.
 
-THE FINAL DAYS OF DAVID (28:1-29:20, 26-30): 
+The Final Days of David (28:1-29:20, 26-30): 
 --------------------------------------------
 
 David makes one final speech regarding the building of the Temple.
@@ -602,7 +602,7 @@ to him.
 After a fruitful reign of 40 years (7 in Hebron and 33 in Jerusalem),
 David dies.
 
-THE FIRST DAYS OF SOLOMON (29:21-25): 
+The First Days of Solomon (29:21-25): 
 -------------------------------------
 
 Shortly after David\'s dedicatory prayer, Solomon is anointed as

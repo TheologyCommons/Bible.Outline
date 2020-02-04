@@ -1,4 +1,4 @@
-1 CORINTHIANS 1 
+1 Corinthians 1 
 ===============
 
 Paul begins his first letter to the Corinthian church by giving thanks
@@ -92,7 +92,7 @@ nullify the wise, strong, exalted, and respected things.
 He tactfully reminds the arrogant Corinthians of their own lack of
 worldly influence and academic wisdom!
 
-1 CORINTHIANS 2 
+1 Corinthians 2 
 ===============
 
 Paul reflects on his founding of the church in Corinth and reminds the
@@ -147,7 +147,7 @@ He reveals to us God\'s deepest secrets.
 
 This is accomplished through the Scriptures.
 
-1 CORINTHIANS 3 
+1 Corinthians 3 
 ===============
 
 Paul again reminds the Corinthians not to elevate teachers of the Word
@@ -216,7 +216,7 @@ himself.
 
 #### You belong to Christ as Christ belongs to God (3:22-23). 
 
-1 CORINTHIANS 4 
+1 Corinthians 4 
 ===============
 
 Paul writes about the office and duties of a steward. A steward is a
@@ -283,7 +283,7 @@ He will soon be sending Timothy their way to assist them.
 
 The apostle plans to visit them personally in the near future.
 
-1 CORINTHIANS 5 
+1 Corinthians 5 
 ===============
 
 Paul writes about church discipline.
@@ -346,7 +346,7 @@ THE EXTENT OF DISCIPLINE (5:9-13)
 
 ### The discipline involves all church members (5:12-13). 
 
-1 CORINTHIANS 6 
+1 Corinthians 6 
 ===============
 
 Paul deals with two sins plaguing the Corinthian church.
@@ -398,7 +398,7 @@ We are to flee from sexual immorality.
 
 Our body is God\'s temple, paid for by the blood of Jesus.
 
-1 CORINTHIANS 7
+1 Corinthians 7
 ===============
 
 Paul talks about marriage.
@@ -462,7 +462,7 @@ Paul advises the unmarried not to rush into marriage.
 
 She is free to marry another believer.
 
-1 CORINTHIANS 8 
+1 Corinthians 8 
 ===============
 
 In the next three chapters, Paul deals with the subject of Christian
@@ -510,7 +510,7 @@ Paul says, \"If what I eat is going to make another Christian sin, I
 will never eat meat again as long as I love-for I don\'t want to make
 another Christian stumble.\"
 
-1 CORINTHIANS 9 
+1 Corinthians 9 
 ===============
 
 Paul offers himself as a proper role model.
@@ -594,7 +594,7 @@ do.
 
 He does not want sin to creep in and disqualify him from the battle.
 
-1 CORINTHIANS 10 
+1 Corinthians 10 
 ================
 
 Paul writes concerning Israel\'s tragic failure in the past and provides
@@ -674,7 +674,7 @@ mature believers should:
 
 ##### Do what they do for the glory of God (10:31) 
 
-1 CORINTHIANS 11 
+1 Corinthians 11 
 ================
 
 Paul describes just how children of God should conduct themselves in the
@@ -730,7 +730,7 @@ Christ\'s.
 
 ##### The man is not to be independent of the woman (11:12). 
 
-GUIDANCE CONCERNING COMMUNION (11:17-34): 
+Guidance Concerning Communion (11:17-34): 
 -----------------------------------------
 
 The Corinthian believers are not observing the Lord\'s Table as they
@@ -789,7 +789,7 @@ punishment.
 
 #### It can be used forgiving ourselves (11:33-34). 
 
-1 CORINTHIANS 12 
+1 Corinthians 12 
 ================
 
 Paul discusses spiritual gifts.
@@ -860,7 +860,7 @@ to the human body with its many physical members.
 THE GREATEST OF THE GIFTS (12:31): Paul ends this chapter by promising to show \"the most excellent way,\" which he does in chapter 13. 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-1 CORINTHIANS 13 
+1 Corinthians 13 
 ================
 
 This is the famous love chapter.
@@ -933,7 +933,7 @@ THE INVINCIBILITY OF LOVE (13:13)
 
 ### Love is God\'s greatest gift (13:13b). 
 
-1 CORINTHIANS 14 
+1 Corinthians 14 
 ================
 
 Paul contrasts and compares the gifts of tongues and prophecy.
@@ -1046,7 +1046,7 @@ Paul offers a fourfold conclusion covering both gifts.
 
 ### Obey what Paul has written, for these are God\'s commands (14:36-38). 
 
-1 CORINTHIANS 15 
+1 Corinthians 15 
 ================
 
 Paul writes about the resurrection of Christ and the resurrection of
@@ -1162,7 +1162,7 @@ This terrible foe is physical death.
 
 #### The future Kingdom will be established (15:25-27). 
 
-THE PATTERN OF THE RESURRECTION (15:35-41): 
+The Pattern of the Resurrection (15:35-41): 
 -------------------------------------------
 
 Paul illustrates the difference between the earthly and heavenly bodies
@@ -1176,7 +1176,7 @@ A planted seed is dead, but a harvested seed is alive.
 
 ### The difference between the moon and the sun (15:40-41): They differ from each other in their beauty and brightness. 
 
-THE PERFECTION OF THE RESURRECTION (15:42-9): Paul describes the new body as superior to the old. 
+The Perfection of the Resurrection (15:42-9): Paul describes the new body as superior to the old. 
 -------------------------------------------------------------------------------------------------
 
 ### The old body (15:42a, 43a, 43c, 44a, 45a, 46a, 47a, 48a, 49a) 
@@ -1207,7 +1207,7 @@ THE PERFECTION OF THE RESURRECTION (15:42-9): Paul describes the new body as sup
 
 #### It will be raised bearing the likeness of Christ (15:49b). 
 
-THE PROMISE OF THE RESURRECTION (15:50-58) 
+The Promise of the Resurrection (15:50-58) 
 ------------------------------------------
 
 ### The situation requiring this promise (15:50): 
@@ -1241,7 +1241,7 @@ Old Testament prophets Isaiah and Hosea wrote of this (Isa. 25:8; Hos.
 
 Because of the resurrection, no labor done for the Lord is in vain.
 
-1 CORINTHIANS 16 
+1 Corinthians 16 
 ================
 
 Paul concludes with instructions about the offering for the Christians
@@ -1249,8 +1249,10 @@ in Jerusalem and about his future visit to them. He conveys greetings
 from several people and ends with a curse on unbelievers and a plea for
 Christ\'s return.
 
-PAUL\'S COLLECTION (16:1-4): The apostle gives directions concerning an offering the Corinthian church is taking. 
------------------------------------------------------------------------------------------------------------------
+Paul\'s Collection (16:1-4): 
+----------------------------
+
+The apostle gives directions concerning an offering the Corinthian church is taking. 
 
 ### Why it is being received (16:1): 
 
@@ -1268,7 +1270,7 @@ The amount will depend on each person\'s income.
 
 The Corinthian church will choose these individuals.
 
-PAUL\'S COMMITMENT (16:5-9) 
+Paul\'s Commitment (16:5-9) 
 ---------------------------
 
 ### He promises to visit them in Corinth in the near future (16:5-7). 
@@ -1279,7 +1281,7 @@ PAUL\'S COMMITMENT (16:5-9)
 
 #### Why he will stay (16:9): God has opened up a great preaching opportunity for him. 
 
-PAUL\'S COWORKERS (16:10-12, 15-20): 
+Paul\'S Coworkers (16:10-12, 15-20): 
 ------------------------------------
 
 He mentions seven of his companions.
@@ -1310,15 +1312,15 @@ These fellow believers have just arrived to encourage and assist Paul.
 
 They and the church that meets in their house send greetings.
 
-PAUL\'S CHALLENGES (16:13-14) 
+Paul\'s Challenges (16:13-14) 
 -----------------------------
 
 ### \"Stand true to what you believe\" (16:13). 
 
 ### \"Everything you do must be done with love\" (16:14). 
 
-PAUL\'S CLOSING WORDS (16:21-24) 
---------------------------------
+Paul\'s Closing Words (16:21-24) 
+--------------------- -----------
 
 ### Anathema (16:22a): 
 

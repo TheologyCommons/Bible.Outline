@@ -1,10 +1,10 @@
-HEBREWS 1 
+Hebrews 1 
 =========
 
 Hebrews opens with a discussion of Christ as the selected one and the
 superior one.
 
-CHRIST, THE SELECTED ONE (1:1-3): 
+Christ, The Selected One (1:1-3): 
 ---------------------------------
 
 The Father has chosen his Son to minister in four allimportant areas.
@@ -48,7 +48,7 @@ The Father has declared Jesus to be his unique Son.
 
 The Father has promised to make Jesus\' enemies his footstool.
 
-HEBREWS 2
+Hebrews 2
 =========
 
 This chapter contains a warning from Christ against drifting away from
@@ -114,7 +114,7 @@ death.
 Having once suffered, Jesus is now able and willing to help those who
 are suffering.
 
-HEBREWS 3
+Hebrews 3
 =========
 
 Jesus is compared to Moses and is declared to be greater than Moses. A
@@ -163,7 +163,7 @@ Land.
 
 #### Encourage one another daily (3:12-14). 
 
-HEBREWS 4 
+Hebrews 4 
 =========
 
 God promises rest for his people.
@@ -235,7 +235,7 @@ He is our great High Priest.
 
 ### Where he is (4:16): At the very throne of grace. 
 
-HEBREWS 5
+Hebrews 5
 =========
 
 Christ, the great High Priest, is compared to Aaron, the first high
@@ -284,7 +284,7 @@ THE REBUKE IN REGARD TO THE PEOPLE (5:11-14)
 
 #### Mature believers can easily digest solid food (5:14). 
 
-HEBREWS 6 
+Hebrews 6 
 =========
 
 The author of Hebrews challenges his readers to strive for spiritual
@@ -354,7 +354,7 @@ This desired maturity is assured.
 
 ### Because of the Savior\'s priesthood (6:19-20) 
 
-HEBREWS 7 
+Hebrews 7 
 =========
 
 The author identifies and equates the priesthood of Jesus with that of
@@ -434,7 +434,7 @@ The Father himself took an oath concerning this.
 
 ### Flawless (7:28) 
 
-HEBREWS 8
+Hebrews 8
 =========
 
 The author discusses the threefold security of the New Covenant over the
@@ -473,7 +473,7 @@ ITS SECURITY IS SUPERIOR (8:5-13).
 
 #### It is written on living hearts (8:10-13). 
 
-HEBREWS 9 
+Hebrews 9 
 =========
 
 The features that relate to both the earthly and heavenly sanctuaries
@@ -562,7 +562,7 @@ Here the author gives us a threefold summary of the Savior\'s work.
 
 ##### He will appear to rule over us (9:28b). 
 
-HEBREWS 10 
+Hebrews 10 
 ==========
 
 This chapter begins with a comparison and concludes with a challenge.
@@ -602,7 +602,7 @@ feet.\"
 
 Someday he will purify the hearts of unbelieving Israel.
 
-THE CHALLENGE (10:19-39): 
+The Challenge (10:19-39): 
 -------------------------
 
 This challenge is in the form of a fourfold exhortation.
@@ -635,12 +635,12 @@ former period of suffering.
 Whatever the present and future holds, they can depend on his continuous
 care.
 
-HEBREWS 11 
+Hebrews 11 
 ==========
 
 This is the famous faith chapter.
 
-THE EXPLANATION OF FAITH (11:1-3, 6) 
+The Explanation of Faith (11:1-3, 6) 
 ------------------------------------
 
 ### Its nature (11:1-2) 
@@ -774,14 +774,14 @@ The earthly and temporary approval of God.
 
 The heavenly and eternal approval of God.
 
-HEBREWS 12 
+Hebrews 12 
 ==========
 
 The author compares a godly life to a great race and explains to his
 readers the reasons behind God\'s discipline. He again warns against the
 sin of unbelief.
 
-THE CONTEST (12:1-4) 
+The Contest (12:1-4) 
 --------------------
 
 ### The race (12:1): 
@@ -811,7 +811,7 @@ At God\'s right hand.
 
 The readers are informed they have not suffered as Christ suffered.
 
-THE CHASTENING (12:5-13): 
+The Chastening (12:5-13): 
 -------------------------
 
 Divine discipline is the theme of this passage.
@@ -864,7 +864,7 @@ Believers are urged to respond positively to discipline.
 
 #### \"Mark out a straight path for your feet\" (12:13). 
 
-THE CHALLENGES (12:14-17) 
+The Challenges (12:14-17) 
 -------------------------
 
 ### The author\'s exhortation (12:14-15) 
@@ -885,7 +885,7 @@ Esau is held up as a tragic example of what not to do.
 
 #### He despised his birthright (12:16c-17). 
 
-THE CONTRASTS (12:18-24): 
+The Contrasts (12:18-24): 
 -------------------------
 
 Two mountains are contrasted.
@@ -910,26 +910,26 @@ Christ.
 
 The grace of God.
 
-THE CAUTION (12:25-27):
+The Caution (12:25-27):
 -----------------------
 
 The author solemnly warns his readers about the terrible results of
 unbelief.
 
-THE CONSUMING FIRE (12:28-29) 
+The Consuming Fire (12:28-29) 
 -----------------------------
 
 ### Our God is a coming King (12:28). 
 
 ### Our God is a consuming fire (12:29). 
 
-HEBREWS 13 
+Hebrews 13 
 ==========
 
 The writer of Hebrews concludes with words about love, leaders,
 legalism, and lordship.
 
-A WORD ABOUT LOVE (13:1-6) 
+A Word About Love (13:1-6) 
 --------------------------
 
 ### Positive (13:1-4): 
@@ -958,7 +958,7 @@ We are to be satisfied with what we have.
 
 ##### God has promised to be our helper (13:6). 
 
-A WORD ABOUT LEADERS (13:7, 17-19, 22-25) 
+A Word About Leaders (13:7, 17-19, 22-25) 
 -----------------------------------------
 
 ### The author tells his readers to honor and obey the spiritual leaders of their church (13:7, 17). 
@@ -973,7 +973,7 @@ A WORD ABOUT LEADERS (13:7, 17-19, 22-25)
 
 #### He refers to Timothy (13:23-25). 
 
-A WORD ABOUT LEGALISM (13:9-11): 
+A Word about legalism (13:9-11): 
 --------------------------------
 
 What altar and sacrifice should the believer be associated with?
@@ -986,7 +986,7 @@ Not the altar in the Tabernacle.
 
 The altar at Calvary.
 
-A WORD ABOUT LORDSHIP (13:8, 12-16, 20-21) 
+A Word About Lordship (13:8, 12-16, 20-21) 
 ------------------------------------------
 
 ### The Shepherd of the fold (13:8, 12, 20-21) 

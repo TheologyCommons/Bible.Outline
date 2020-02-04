@@ -1,4 +1,4 @@
-1 KINGS 1 
+1 Kings 1 
 =========
 
 David\'s death draws near. David\'s son Adonijah conspires to make
@@ -62,7 +62,7 @@ When Adonijah learns that Solomon is the new king, he seeks refuge at
 the altar of the sacred tent. He asks for mercy from Solomon, who grants
 it as long as Adonijah remains loyal to him.
 
-1 KINGS 2 
+1 Kings 2 
 =========
 
 David delivers a charge to Solomon and dies. Solomon executes Adonijah
@@ -132,7 +132,7 @@ later he leaves the city to retrieve two runaway slaves.
 
 Upon Shimei\'s return, Solomon has him executed.
 
-1 KINGS 3-4 
+1 Kings 3-4 
 ===========
 
 Solomon marries one of Pharaoh\'s daughters. When the Lord offers
@@ -240,7 +240,7 @@ Egypt and the surrounding nations.
 
 ##### His advice is sought by the kings of every nation. 
 
-1 KINGS 5-7 
+1 Kings 5-7 
 ===========
 
 Solomon gathers supplies and constructs a magnificent Temple for the
@@ -330,7 +330,7 @@ buildings, the Palace of the Forest of Lebanon, measures 150 feet long,
 Another room, the Hall of Pillars, measures 75 feet long by 45 feet
 wide.
 
-1 KINGS 8 
+1 Kings 8 
 =========
 
 After the Ark is transferred to the Temple, Solomon blesses the people
@@ -397,7 +397,7 @@ Solomon and the people complete the dedication of the Temple by
 sacrificing 22,000 oxen and 120,000 sheep! Then they celebrate the
 Festival of Shelters.
 
-1 KINGS 9-10 
+1 Kings 9-10 
 ============
 
 The Lord responds to Solomon\'s prayer. Hiram is displeased with the
@@ -494,7 +494,7 @@ his great wealth.
 
 #### The thousands of chariots and horses (10:26-29) 
 
-1 KINGS 11 
+1 Kings 11 
 ==========
 
 Solomon allows his many wives and concubines to lead him into idolatry.
@@ -566,7 +566,7 @@ Solomon.
 SOLOMON\'S DEATH (11:41-43): After reigning 40 years, Solomon dies and is succeeded by his son Rehoboam. 
 --------------------------------------------------------------------------------------------------------
 
-1 KINGS 12-13 
+1 Kings 12-13 
 =============
 
 Rehoboam succeeds his father, Solomon, as king. After Rehoboam makes a
@@ -695,7 +695,7 @@ When the older prophet hears that the man of God has been killed, he
 retrieves the body and mourns for him. He instructs his sons to bury him
 beside the man of God, for his message is certainly true.
 
-1 KINGS 14-15 
+1 Kings 14-15 
 =============
 
 Ahijah pronounces doom on Jeroboam\'s family. Jeroboam dies, and Nadab
@@ -789,7 +789,7 @@ Baasha kills Nadab and all of Jeroboam\'s descendants, thus fulfilling
 the prophecy of Ahijah the prophet. He is constantly at war with King
 Asa of Judah.
 
-1 KINGS 16-17 
+1 Kings 16-17 
 =============
 
 The reigns of the northern kings Baasha, Elah, Zimri, Omri, and Ahab are
@@ -938,7 +938,7 @@ The Lord grants Elijah\'s request, and the boy is raised from the dead!
 
 The grateful widow testifies that Elijah is indeed a man of God.
 
-1 KINGS 18-19 
+1 Kings 18-19 
 =============
 
 Elijah challenges Ahab to a contest on Mount Carmel. The Lord honors
@@ -1093,7 +1093,7 @@ Elisha sacrifices his oxen and shares the meat with the other plowmen,
 thus ending his old occupation and beginning his life as Elijah\'s
 assistant.
 
-1 KINGS 20-21
+1 Kings 20-21
 =============
 
 Ben-hadad\'s forces besiege Samaria. King Ahab defeats them twice; Ahab
@@ -1233,7 +1233,7 @@ AHAB\'S CONTRITION (21:25-29):
 Hearing Elijah\'s terrible words, the king repents; the Lord chooses to
 carry out his sentence only after Ahab\'s death.
 
-1 KINGS 22 
+1 Kings 22 
 ==========
 
 King Jehoshaphat of Judah joins forces with King Ahab of Israel to fight
@@ -1303,7 +1303,7 @@ his mixed record, including allowing pagan shrines to remain, making
 peace with Israel, removing all the shrine prostitutes, and building a
 fleet of trading ships that are wrecked before they ever set sail.
 
-THE EVILNESS OF AHAZIAH\'S REIGN (22:51-53): 
+The Evilness of ahaziah\'s Reign (22:51-53): 
 --------------------------------------------
 
 Israel\'s eighth ruler, Ahaziah, is declared wicked because he continues
