@@ -10,7 +10,7 @@ namespace Docx_Ppt
         {
            
             Parser.Default.ParseArguments<Options>(args)
-                .WithParsed<Options>(o => { PPTGenerator.Create(o.MarkDownFile,o.PowerPointFile); }
+                .WithParsed<Options>(o => { PPTGenerator.Create(o.MarkDownFile,o.PowerPointFile, (fileName)=>Console.WriteLine($"Create {fileName}")); }
             );
         }
     }

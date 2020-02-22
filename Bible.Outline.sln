@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Md-Ppt", "Tools\Md-Ppt\Md-Ppt.csproj", "{97C1C709-6A7F-47C3-94A2-CA08A73F9664}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteGenerator", "SiteGenerator\SiteGenerator.csproj", "{4251E303-EC27-46B5-BE9F-BF064455AFD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{97C1C709-6A7F-47C3-94A2-CA08A73F9664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97C1C709-6A7F-47C3-94A2-CA08A73F9664}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97C1C709-6A7F-47C3-94A2-CA08A73F9664}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97C1C709-6A7F-47C3-94A2-CA08A73F9664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4251E303-EC27-46B5-BE9F-BF064455AFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4251E303-EC27-46B5-BE9F-BF064455AFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4251E303-EC27-46B5-BE9F-BF064455AFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4251E303-EC27-46B5-BE9F-BF064455AFD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

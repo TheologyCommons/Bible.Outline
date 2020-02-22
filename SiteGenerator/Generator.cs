@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Office.Core;
 using Microsoft.Office.Interop.PowerPoint;
 
-namespace Md_Ppt
+namespace SiteGenerator
 {
-    public class PPTGenerator
+    public class Generator
     {
-        public  static void Create(string markDownFile, string targetFile, Action<string> fileCreated)
+        public  static void Create(string markDownFile, Action<string> fileCreated, Action<string> indexCreated)
         {
             var paragraphs = new List<Paragraph>();
             using (StreamReader fs = new StreamReader(markDownFile))
@@ -31,39 +31,74 @@ namespace Md_Ppt
                     }
                 }
             }
-            var para = new Paragraph(){System.IO.Path.GetFileNameWithoutExtension(markDownFile) };
+
+            var rootFileName = System.IO.Path.GetFileNameWithoutExtension(markDownFile);
+            var para = new Paragraph(){ rootFileName };
             var outlineParagraph = new OutlineParagraph(para, paragraphs);
+
+            List<string> filesAdded = new List<string>();
+            Action<string> addIndex = (filename) =>
+            {
+                filesAdded.Add(filename);
+            };
             if (outlineParagraph.Children.Count > 10)
             {
                 foreach (var p in outlineParagraph.Children)
                 {
-                    createPowerPoint(p, targetFile,fileCreated);
+                    create(p, rootFileName, addIndex);
                 }
+
             }
             else
             {
-                createPowerPoint(outlineParagraph, targetFile, fileCreated);
+                create(outlineParagraph,rootFileName, addIndex);
             }
+
+            createIndex(filesAdded, rootFileName,indexCreated);
+            fileCreated(rootFileName);
         }
 
-        private static void createPowerPoint(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated)
+        private static void createIndex(List<string> filesAdded,string rootFileName, Action<string> indexCreated)
+        {
+            var currentDirectory = System.IO.Directory.GetCurrentDirectory();
+            var targetName = System.IO.Path.GetFileNameWithoutExtension(rootFileName);
+            var indexFileTargetDirectory = System.IO.Path.Combine(currentDirectory, "HTML", targetName);
+            var indexFileTargetPath = System.IO.Path.Combine(indexFileTargetDirectory, "index.html");
+            var writer = System.IO.File.CreateText(indexFileTargetPath);
+            foreach (var fileAdded in filesAdded)
+            {
+                System.Uri indexFileTargetDirectoryUri = new Uri(indexFileTargetDirectory+"/");
+
+                System.Uri fileUri = new Uri(fileAdded);
+
+
+
+                Uri relativeUri = indexFileTargetDirectoryUri.MakeRelativeUri(fileUri);
+                writer.WriteLine($"<a href='{relativeUri.ToString()}'>{System.IO.Path.GetFileName(fileAdded)}</a><br/>");
+            }
+
+            writer.Close();
+            indexCreated(indexFileTargetPath);
+        }
+
+        private static void create(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated)
         {
             var pptApplication = new Microsoft.Office.Interop.PowerPoint.ApplicationClass();
 
-            var rootPath = System.IO.Path.GetDirectoryName(targetFile);
+            var currentDirectory = System.IO.Directory.GetCurrentDirectory();
             var targetName = System.IO.Path.GetFileNameWithoutExtension(targetFile);
-            var pptFileTargetPath = System.IO.Path.Combine(rootPath, targetName) + $"\\" + outlineParagraph.Text.Trim() + ".ppt";
+            var pptFileTargetPath = System.IO.Path.Combine(currentDirectory, "PPT", targetName, outlineParagraph.Text.Trim() + ".ppt");
 
 
             // Create the Presentation File
             Presentation pptPresentation = pptApplication.Presentations.Add(MsoTriState.msoFalse);
 
-            var filePath = typeof(PPTGenerator).Assembly.Location;
+            var filePath = typeof(Generator).Assembly.Location;
             var path = System.IO.Path.GetDirectoryName(filePath);
 
 
             pptPresentation.ApplyTheme(path + @"\BibleStudy.thmx");
-            createPowerPoint(outlineParagraph, pptPresentation,fileCreated);
+            createPresentation(outlineParagraph, pptPresentation,fileCreated);
 
             try
             {
@@ -78,7 +113,7 @@ namespace Md_Ppt
                 throw;
             }
 
-            var odpOutputfile = Path.Combine(rootPath, "..\\ODP", targetName, outlineParagraph.Text.Trim()+ ".odp");
+            var odpOutputfile = Path.Combine(currentDirectory, "ODP", targetName, outlineParagraph.Text.Trim()+ ".odp");
 
 
 
@@ -88,9 +123,49 @@ namespace Md_Ppt
             pptPresentation.Close();
             pptApplication.Quit();
 
+
+            var padHtmlDocfile = Path.Combine(currentDirectory, "HTML", targetName, outlineParagraph.Text.Trim() + ".html");
+            createPandoc(outlineParagraph, padHtmlDocfile, fileCreated, "html");
+
+
         }
 
-        private static void createPowerPoint(OutlineParagraph outlineParagraph, Presentation pptPresentation, Action<string> fileCreated)
+        private static void createPandoc(OutlineParagraph outlineParagraph,string targetFilePath, Action<string> fileCreated, string format)
+        {
+            string processName = @"C:\Program Files\Pandoc\pandoc.exe";
+            string args = String.Format($"-r markdown  -t {format}");
+
+            ProcessStartInfo psi = new ProcessStartInfo(processName, args);
+
+            psi.RedirectStandardOutput = true;
+            psi.RedirectStandardInput = true;
+
+            Process p = new Process();
+            p.StartInfo = psi;
+            psi.UseShellExecute = false;
+            p.Start();
+
+            string outputString = "";
+            string paraMarkDown = outlineParagraph.MarkDownAsync().Result;
+            byte[] inputBuffer = Encoding.UTF8.GetBytes(paraMarkDown);
+            p.StandardInput.BaseStream.Write(inputBuffer, 0, inputBuffer.Length);
+            p.StandardInput.Close();
+
+            p.WaitForExit(2000);
+            using (System.IO.StreamReader sr = new System.IO.StreamReader(
+                p.StandardOutput.BaseStream))
+            {
+                System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(targetFilePath));
+                var fileStream = File.Create(targetFilePath);
+                p.StandardOutput.BaseStream.CopyTo(fileStream);
+                fileStream.Close();
+            }
+
+            fileCreated(targetFilePath);
+
+        }
+
+        private static void createPresentation(OutlineParagraph outlineParagraph, Presentation pptPresentation, Action<string> fileCreated)
         {
             var text = outlineParagraph.Text;
             var subTexts = new List<string>();
@@ -107,7 +182,7 @@ namespace Md_Ppt
                         createLayoutTitle(text, subTexts, pptPresentation);
                     }
 
-                    createPowerPoint(child, pptPresentation, fileCreated);
+                    createPresentation(child, pptPresentation, fileCreated);
                 }
             }
             createLayoutTitle(text, subTexts, pptPresentation);
