@@ -1,3 +1,6 @@
 [submodule "Bible.Outline.wiki"]
 	path = MD
 	url = https://github.com/TheologyCommons/Bible.Outline.wiki.git
+[submodule "MD"]
+	path = MD
+	url = https://github.com/TheologyCommons/Bible.Outline.wiki.git
