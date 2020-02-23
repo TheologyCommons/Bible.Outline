@@ -45,43 +45,21 @@ namespace SiteGenerator
             {
                 foreach (var p in outlineParagraph.Children)
                 {
-                    create(p, rootFileName, addIndex);
+                    createPresentation(p, rootFileName, addIndex);
+                    createMDFile(outlineParagraph, rootFileName);
                 }
 
             }
             else
             {
-                create(outlineParagraph,rootFileName, addIndex);
+                createPresentation(outlineParagraph,rootFileName, addIndex);
+                createMDFile(outlineParagraph, rootFileName);
             }
-
-            createIndex(filesAdded, rootFileName,indexCreated);
             fileCreated(rootFileName);
         }
 
-        private static void createIndex(List<string> filesAdded,string rootFileName, Action<string> indexCreated)
-        {
-            var currentDirectory = System.IO.Directory.GetCurrentDirectory();
-            var targetName = System.IO.Path.GetFileNameWithoutExtension(rootFileName);
-            var indexFileTargetDirectory = System.IO.Path.Combine(currentDirectory, "HTML", targetName);
-            var indexFileTargetPath = System.IO.Path.Combine(indexFileTargetDirectory, "index.html");
-            var writer = System.IO.File.CreateText(indexFileTargetPath);
-            foreach (var fileAdded in filesAdded)
-            {
-                System.Uri indexFileTargetDirectoryUri = new Uri(indexFileTargetDirectory+"/");
 
-                System.Uri fileUri = new Uri(fileAdded);
-
-
-
-                Uri relativeUri = indexFileTargetDirectoryUri.MakeRelativeUri(fileUri);
-                writer.WriteLine($"<a href='{relativeUri.ToString()}'>{System.IO.Path.GetFileName(fileAdded)}</a><br/>");
-            }
-
-            writer.Close();
-            indexCreated(indexFileTargetPath);
-        }
-
-        private static void create(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated)
+        private static void createPresentation(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated)
         {
             var pptApplication = new Microsoft.Office.Interop.PowerPoint.ApplicationClass();
 
@@ -100,69 +78,58 @@ namespace SiteGenerator
             pptPresentation.ApplyTheme(path + @"\BibleStudy.thmx");
             createPresentation(outlineParagraph, pptPresentation,fileCreated);
 
-            try
-            {
-                System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(pptFileTargetPath));
+            //try
+            //{
+            //    System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(pptFileTargetPath));
 
-                pptPresentation.SaveAs(pptFileTargetPath);
-                fileCreated(pptFileTargetPath);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                throw;
-            }
+            //    pptPresentation.SaveAs(pptFileTargetPath);
+            //    fileCreated(pptFileTargetPath);
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine(ex.Message);
+            //    throw;
+            //}
 
             var odpOutputfile = Path.Combine(currentDirectory, "ODP", targetName, outlineParagraph.Text.Trim()+ ".odp");
 
 
-
             System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(odpOutputfile));
+
             pptPresentation.SaveAs(odpOutputfile, PpSaveAsFileType.ppSaveAsOpenDocumentPresentation);
             fileCreated(odpOutputfile);
             pptPresentation.Close();
             pptApplication.Quit();
 
 
-            var padHtmlDocfile = Path.Combine(currentDirectory, "HTML", targetName, outlineParagraph.Text.Trim() + ".html");
-            createPandoc(outlineParagraph, padHtmlDocfile, fileCreated, "html");
-
 
         }
 
-        private static void createPandoc(OutlineParagraph outlineParagraph,string targetFilePath, Action<string> fileCreated, string format)
+        private static void createMDFile(OutlineParagraph outlineParagraph, string targetFile)
         {
-            string processName = @"C:\Program Files\Pandoc\pandoc.exe";
-            string args = String.Format($"-r markdown  -t {format}");
+            var targetName = System.IO.Path.GetFileNameWithoutExtension(targetFile);
 
-            ProcessStartInfo psi = new ProcessStartInfo(processName, args);
-
-            psi.RedirectStandardOutput = true;
-            psi.RedirectStandardInput = true;
-
-            Process p = new Process();
-            p.StartInfo = psi;
-            psi.UseShellExecute = false;
-            p.Start();
-
-            string outputString = "";
+            var Odpfile = Path.Combine(System.IO.Directory.GetCurrentDirectory(),
+                "ODP", targetName, outlineParagraph.Text.Trim() + ".odp");
+            var MDDocfile = Path.Combine(System.IO.Directory.GetCurrentDirectory(),
+                "MD", targetName, outlineParagraph.Text.Trim() + ".markdown");
+            System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(MDDocfile));
             string paraMarkDown = outlineParagraph.MarkDownAsync().Result;
-            byte[] inputBuffer = Encoding.UTF8.GetBytes(paraMarkDown);
-            p.StandardInput.BaseStream.Write(inputBuffer, 0, inputBuffer.Length);
-            p.StandardInput.Close();
+            var writer = System.IO.File.CreateText(MDDocfile);
+            writer.WriteLine("---");
+            writer.WriteLine("layout: outline");
+            writer.WriteLine($"title: {outlineParagraph.Text.Trim()}");
+            writer.WriteLine("---");
+            writer.WriteLine($"[Presentation](/{relativeToCurrent(Odpfile)})");
+            writer.Write(paraMarkDown);
+            writer.Close();
+        }
 
-            p.WaitForExit(2000);
-            using (System.IO.StreamReader sr = new System.IO.StreamReader(
-                p.StandardOutput.BaseStream))
-            {
-                System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(targetFilePath));
-                var fileStream = File.Create(targetFilePath);
-                p.StandardOutput.BaseStream.CopyTo(fileStream);
-                fileStream.Close();
-            }
-
-            fileCreated(targetFilePath);
-
+        private static object relativeToCurrent(string odpfile)
+        {
+            var currentUri = new Uri(System.IO.Directory.GetCurrentDirectory());
+            var targetUri = new Uri(odpfile);
+            return currentUri.MakeRelativeUri(targetUri);
         }
 
         private static void createPresentation(OutlineParagraph outlineParagraph, Presentation pptPresentation, Action<string> fileCreated)

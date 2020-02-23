@@ -2,7 +2,7 @@
   "profiles": {
     "SiteGenerator": {
       "commandName": "Project",
-      "commandLineArgs": "-m \"D:\\TheologyCommons\\Bible.Outline\\MD\" -o \"D:\\TheologyCommons\\Site\""
+      "commandLineArgs": "-m \"D:\\TheologyCommons\\Bible.Outline\\MD\" -o \"D:\\TheologyCommons\\Site\\Expository\""
     }
   }
 }
