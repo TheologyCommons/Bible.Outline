@@ -11,7 +11,7 @@ namespace SiteGenerator
 {
     public class Generator
     {
-        public  static void Create(string markDownFile, Action<string> fileCreated, Action<string> indexCreated)
+        public  static void Create(string markDownFile, Action<string> fileCreated, Action<string> indexCreated,Logger logger)
         {
             var paragraphs = new List<Paragraph>();
             using (StreamReader fs = new StreamReader(markDownFile))
@@ -45,28 +45,33 @@ namespace SiteGenerator
             {
                 foreach (var p in outlineParagraph.Children)
                 {
-                    createPresentation(p, rootFileName, addIndex);
+                    createPresentation(p, rootFileName, addIndex,logger);
                     createMDFile(outlineParagraph, rootFileName);
                 }
 
             }
             else
             {
-                createPresentation(outlineParagraph,rootFileName, addIndex);
+                createPresentation(outlineParagraph,rootFileName, addIndex,logger);
                 createMDFile(outlineParagraph, rootFileName);
             }
             fileCreated(rootFileName);
         }
 
 
-        private static void createPresentation(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated)
+        private static void createPresentation(OutlineParagraph outlineParagraph, string targetFile, Action<string> fileCreated, Logger logger)
         {
             var pptApplication = new Microsoft.Office.Interop.PowerPoint.ApplicationClass();
 
             var currentDirectory = System.IO.Directory.GetCurrentDirectory();
             var targetName = System.IO.Path.GetFileNameWithoutExtension(targetFile);
-            var pptFileTargetPath = System.IO.Path.Combine(currentDirectory, "PPT", targetName, outlineParagraph.Text.Trim() + ".ppt");
-
+            //var pptFileTargetPath = System.IO.Path.Combine(currentDirectory, "PPT", targetName, outlineParagraph.Text.Trim() + ".ppt");
+            var odpOutputfile = Path.Combine(currentDirectory, "ODP", targetName, outlineParagraph.Text.Trim() + ".odp");
+            if (System.IO.File.Exists(odpOutputfile))
+            {
+                logger.Log($"{odpOutputfile} already exists to recreate it delete the existing version.");
+                return;
+            }
 
             // Create the Presentation File
             Presentation pptPresentation = pptApplication.Presentations.Add(MsoTriState.msoFalse);
@@ -90,9 +95,6 @@ namespace SiteGenerator
             //    Console.WriteLine(ex.Message);
             //    throw;
             //}
-
-            var odpOutputfile = Path.Combine(currentDirectory, "ODP", targetName, outlineParagraph.Text.Trim()+ ".odp");
-
 
             System.IO.Directory.CreateDirectory(System.IO.Path.GetDirectoryName(odpOutputfile));
 
@@ -119,8 +121,9 @@ namespace SiteGenerator
             writer.WriteLine("---");
             writer.WriteLine("layout: outline");
             writer.WriteLine($"title: {outlineParagraph.Text.Trim()}");
+            writer.WriteLine($"presentation: {relativeToCurrent(Odpfile)}");
+
             writer.WriteLine("---");
-            writer.WriteLine($"[Presentation](/{relativeToCurrent(Odpfile)})");
             writer.Write(paraMarkDown);
             writer.Close();
         }

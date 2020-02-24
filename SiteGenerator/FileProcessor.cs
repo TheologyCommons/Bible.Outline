@@ -134,8 +134,9 @@ namespace SiteGenerator
             {
                 var fileName = System.IO.Path.GetFileNameWithoutExtension(file);
                 Generator.Create(file,
-                    (generatedFileName)=>fileCreated(generatedFileName), indexCreated
-                    );
+                    (generatedFileName)=>fileCreated(generatedFileName), 
+                    indexCreated,
+                    _logger);
             }
         }
 
