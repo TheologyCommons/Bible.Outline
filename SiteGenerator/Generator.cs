@@ -46,7 +46,7 @@ namespace SiteGenerator
                 foreach (var p in outlineParagraph.Children)
                 {
                     createPresentation(p, rootFileName, addIndex,logger);
-                    createMDFile(outlineParagraph, rootFileName);
+                    createMDFile(p, rootFileName);
                 }
 
             }
@@ -121,9 +121,9 @@ namespace SiteGenerator
             writer.WriteLine("---");
             writer.WriteLine("layout: outline");
             writer.WriteLine($"title: {outlineParagraph.Text.Trim()}");
-            writer.WriteLine($"presentation: {relativeToCurrent(Odpfile)}");
-
             writer.WriteLine("---");
+            writer.WriteLine($"{{%include presentationFrame.html presentationSrc=\"/{relativeToCurrent(Odpfile)}\"%}}");
+            writer.WriteLine($"");
             writer.Write(paraMarkDown);
             writer.Close();
         }
